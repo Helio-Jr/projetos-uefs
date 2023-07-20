@@ -22,10 +22,10 @@ def menu(): #Função para abrir o menu do jogo
 			print()
 		if keyboard.is_pressed('up') and linha_Menu > 0: #Condicional para o usuário selecionar a opção acima
 			linha_Menu -= 1
-			time.sleep(0.05)
+			time.sleep(0.5)
 		if keyboard.is_pressed('down') and linha_Menu < 3: #Condicional para o usuário selecionar a opção abaixo
 			linha_Menu += 1
-			time.sleep(0.05)
+			time.sleep(0.5)
 		matriz_Menu = [[' ','Jogar',' '],[' ','Recordes',' '],[' ','Sobre',' '],[' ','Sair',' ']] 
 		matriz_Menu[linha_Menu][0] = '< '
 		matriz_Menu[linha_Menu][2] = ' >'

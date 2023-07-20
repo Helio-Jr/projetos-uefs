@@ -85,7 +85,7 @@ while escolha != 4:
                 
                 print('Pontos: %d \nVidas restantes: %d \nAsteroides não destruidos: %d' % (pontos, vida, asteroids)) #Imprime na tela os pontos, os asteroides não destruidos e a vida restante do usuário
 
-                time.sleep(0.01) #Determina o tempo de execução do loop como 0.01 segundos
+                time.sleep(0.05) #Determina o tempo de execução do loop como 0.01 segundos
                 os.system('cls') #Atualiza a tela
 
                 linha += 1 
